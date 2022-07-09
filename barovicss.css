@@ -1,0 +1,95 @@
+body {
+background-image: linear-gradient(#F7F3E9, #A3D2CA);
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Stick No Bills'
+}
+.container {
+  background-color: #F0EBE3;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.midcontainer {
+  margin-top: 10px;
+  padding-top: 20px;
+  background-color: #E4DCCF;
+  width: 100%;
+  height: 300px;
+}
+
+.bottomcontainer {
+  margin-top: 10px;
+  padding-top: 20px;
+  background-color: #7D9D9C;
+  width: 100%;
+  height: 300px;
+}
+
+.sliki {
+  padding-top: 20px;
+  float: inherit;
+  padding-left: 50px;
+  width: 400px;
+  height: 267px;
+}
+
+.sliki2 {
+  padding-left: 50px;
+  width: 400px;
+  height: 267px;
+  float: inherit;
+}
+
+.sliki3 {
+  padding-left: 50px;
+  width: 400px;
+  height: 267px;
+  float: inherit;
+}
+
+.naslov {
+  text-align: center;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.ginfish {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.watermark {
+  font-family: 'Righteous', cursive;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

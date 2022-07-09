@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+    <meta charset="utf-8">
+    <title>Одмор!!</title>
+  </head>
+  <body>
+    <div class="topnav">
+<a class="active" href="index.html">Почетна</a>
+<a href="barovi.html">Барови</a>
+<a href="restorani.html">Ресторани</a>
+</div>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+  <h1>Време останато до одмор:</h1>
+  <p id="demo"></p>
+  <script>
+
+var countDownDate = new Date("July 13, 2022 21:30:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Идеме на РеМо";
+  }
+}, 1000);
+</script>
+</div>
+<div class="skiathosimg">
+  <div class="centered">skiathos</div>
+    <img class="prvaslika" src="skiathos-greece.jpg" alt="skiathos">
+</div>
+    <section class="middle">
+        <hr>
+        <h1 class="naslov">Заменитости:</h1>
+        <div class="tabelasliki">
+        <table>
+          <tbody>
+            <tr>
+                <td>
+                    <img class="vtoraslika" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/8b/7a/3d/paradise.jpg?w=1000&h=-1&s=1" alt="lalariabeach">
+                      <h2 class="laalaria"> Lalaria Beach </h2>
+                    </td>
+                    <td>
+                      <img class="tretaslika" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/6c/ac/67/mandraki-beach.jpg?w=1200&h=-1&s=1" alt="mandrakibeach">
+                        <h2 class="mandraki">Mandraki Beach </h2>
+                    </td>
+                    <td>
+                      <img class="cetvrtaslika" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/42/b2/4c/getlstd-property-photo.jpg?w=1200&h=-1&s=1" alt="tsougriasbeach">
+                      <h2 class="tsougrias">Tsougrias Beach</h2>
+                    </td>
+                    <td>
+                      <div class="textwrap">
+                      <img class="pettaslika" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/0f/ce/dd/koukounaries-beach.jpg?w=1200&h=-1&s=1" alt="koukounariesbeach">
+                      <h2 class="koukounaries">Koukounaries Beach </h2>
+                    </div>
+                    </td>
+                    <td>
+                      <img class="shestaslika" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/09/e0/cc/caption.jpg?w=1200&h=-1&s=1" alt="bananabeach">
+                      <h2 class="banana">Banana Beach</h2>
+                </tr>
+                <tr>
+                  <td class="line"> <p> Во групата на најубави плажи на Скијатос, за некои и најубава. Оваа плажа е како рај на земјата, ремек дело на природата. Недопрена природа, бели камчиња, тиркизно море, мирно и неурбанизирано место, место кое чека да го посетите и малку ќе ви биде времето таму за да се насладите на целата таа убавина.  Оваа плажа е достапна само со бротче, кое ќе ве однесе и до средновековниот замок. Исто така се посетува и островот Skopelos како и црквата Agios Ioannis позната по иконата св. Јован. Исто така на ова место како и островот Skopleos се снимени доста сцени од мјузиклот Mama Mia. Крстарење кое претставува целодневно уживање.</p> </td>
+                  <td class="line2"> <p> Плажата Мандраки: Ова е една од најмирните плажи лоцирана на западниот брег на островот, 15 километри западно од градот Скијатос. Станува збор за многу добро позната плажа подарена од природата поради кристално чистите води и недопрениот поглед.Иако има совршено природно опкружување, во летните месеци нема многу гужва, веројатно затоа што патот од Кукунарис до Мандраки е патека. Плажата се протега на многу метри каде што можете да прошетате. Има менза која нуди вода и други ладни пијалоци. Плажата се одликува со високи ридови и прекрасниот поглед што го нуди. Пристапот до плажата е лесен. </p> </td>
+                  <td class="line3"> <p> Островот на плажата Цугријас, Скијатос: Цугријас е најпосетуваното островче лоцирано преку пристаништето Скијатос. Тоа е прекрасно место покриено со борови дрвја и еукалиптус со најневеројатните плажи со зелени кристални води. На овој остров вреди да се посети живописната црква Агиос Флорос. Има само неколку чадори, но нема центар за спортови на вода. Островот Цугријас е популарна дестинација за луѓе кои имаат свои чамци. Атмосферата е многу релаксирачка во комбинација со природната убавина на местото. Од другата страна на островот, има уште една плажа, подеднакво убава, но мора да пешачите низ шумата за да стигнете таму. Од пристаништето секојдневно заминуваат чамци. Пристапот до плажата е лесен. </p> </td>
+                  <td class="line4"> <p> Плажа Кукунарис: Ова е најпознатата плажа во Скијатос, па затоа и најпреполната. Добро е познат по својот исклучително фин бел песок и нејзината миризлива борова шума од која регионот го добил името. Се смета за една од најдобрите плажи во Грција, но исто така беше избрана за најнерасипана природна плажа на Медитеранот. Прекрасните кристално чисти длабоко сини води се вистинско задоволство. Бидејќи плажата е добро организирана, нуди многу спортови на вода, столици, чадори, барови на плажа.Регионот околу плажата е полн со ресторани, таверни и некои хотелски единици. Локален автобус ја поврзува оваа плажа со главниот град на секои 30 минути. Биотоп може да се најде во боровата шума на плажата каде што се заштитени различни видови растенија и птици. Ова место, како и плажата, е развиено за екотуризам, финансирано од Општината и Европската Унија. </p> </td>
+                  <td class="line5"> <p> Веќе ви спомнавме дека овој остров е идеален за млади, љубители на денска и ноќна журка. Плажата БАНАНА е идеално место за младите посетители и секако за сите со млад дух.  Овде имате Dj од пладне до полноќ. Журката е во полн ек уште во поладневните часови и трае со исто темпо до полноќ. Море, музика, пијачка, млади и разиграни луѓе, што повеќе може да посакате. Ова место навистина ќе ви се допадне и нема да ви здосади дури и секој ден од вашиот одмор да бидете тука. Секако ова не е класичен одмор, вака малку ќе се заморите, но кога ќе се вратите ќе спиете дома, може нели?! </p> </td>
+
+              </tbody>
+        </table>
+        </div>
+    </section>
+    <div class="watermark"> © Mario 2022 </div>
+  </body>
+</html>
